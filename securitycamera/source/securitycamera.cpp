@@ -120,7 +120,7 @@ void SecurityCamera::concatImages() {
     }
 
     if (cameras == 1) {
-        fillMat(cam[0]);
+      fillMat(cam[0]);
       frame = cam[0];
     } else if (cameras == 2) {
       try {

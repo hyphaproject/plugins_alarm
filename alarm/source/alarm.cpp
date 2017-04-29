@@ -7,10 +7,10 @@
 #include <string>
 #include <thread>
 
+#include <Poco/ClassLibrary.h>
 #include <boost/property_tree/json_parser.hpp>
 #include <boost/property_tree/ptree.hpp>
 
-#include <Poco/ClassLibrary.h>
 #include <hypha/core/database/database.h>
 #include <hypha/core/database/userdatabase.h>
 #include <hypha/plugin/hyphabaseplugin.h>
